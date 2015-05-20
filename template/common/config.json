@@ -48,6 +48,7 @@
 			"nil",
 			"false",
 			"GoVeg.com",
+        "田中太郎",
 			"Leone Sextus Denys Oswolf Fraudatifilius Tollemache-Tollemache de Orellana Plantagenet Tollemache-Tollemache",
 			"ᴮᴵᴳᴮᴵᴿᴰ",
 			"Milan Vojnovič",
@@ -123,15 +124,26 @@
 					"mysite"
 			]
 	},
-	"Numbers": [
-		"0",
-		"32767", "32768", "32769",
-		"65535", "65536", "65537",
-		"2147483647", "2147483648", "2147483649",
-		"4294967295", "4294967296", "4294967297",
-		"1E-16", "-1", "0.0001",
-		"1,234,567", "1.234.567,89"
-	],
+    "Numbers": [
+        "0",
+        "32767",
+        "32768",
+        "32769",
+        "65535",
+        "65536",
+        "65537",
+        "2147483647",
+        "2147483648",
+        "2147483649",
+        "4294967295",
+        "4294967296",
+        "4294967297",
+        "1E-16",
+        "-1",
+        "0.0001",
+        "1,234,567",
+        "1.234.567,89"
+    ],
 	"Whitespace": {
 		"Tabs and newlines": "Contains\tTabs\nAnd\tNewlines",
 		"Leading spaces": "  leading spaces",
@@ -146,5 +158,75 @@
 		"JS String (XSS) Injection - double quote": "\"-prompt()-\"",
 		"HTML parsing": "<blink>Hello there</blink>",
 		"Broken HTML": "<i><b>Bold</i></b>"
-	}
+    },
+    "Credit Cards": {
+        "Visa": [
+            "4111111111111111",
+            "4111111111111110",
+            "4012888888881880",
+            "4716523819425032",
+            "4868742545908444"
+        ],
+        "Mastercard": [
+            "5105105105105100",
+            "5555555555554440",
+            "5420403453328491",
+            "5433366990079189"
+        ],
+        "American Express": [
+            "378282246310005",
+            "344175451163229",
+            "377101208476425",
+            "347839132215891"
+        ],
+        "Dinners Club": [
+            "38520000023237",
+            "30569309025904",
+            "30050483779558",
+            "30241513945851"
+        ],
+        "Discover": [
+            "6011111111111110",
+            "6011000990139420",
+            "6011338034702132",
+            "6011774929723363"
+        ]
+    },
+    "AVS": {
+        "RountingNumbers": {
+            "Valid": [
+                "122199983"
+            ],
+            "Invalid": [
+                "062102289"
+            ],
+            "Insufficent digits": [
+                "1221999"
+            ]
+        },
+        "Account Numbers": {
+            "Valid": [
+                "92361077941"
+            ],
+            "Invalid-AlphaNumeric": [
+                "A10319132927B"
+            ]
+        }
+    },
+    "Addresses": {
+        "New Jersey": {
+            "State": [
+                "New Jersey"
+            ],
+            "City": [
+                "Fort Lee"
+            ],
+            "ZipCode": [
+                "07024"
+            ],
+            "Line1": [
+                "2200 Fletcher Avenue"
+            ]
+        }
+    }
 }
