@@ -1,7 +1,7 @@
 {
 	"name": "Bug Magnet",
 	"description": "Right-click context menu to help with exploratory testing",
-	"version": "0.91",
+	"version": "0.92",
 	"permissions": ["contextMenus", "storage"],
 	"background": {
 		"scripts": ["extension.js"]
