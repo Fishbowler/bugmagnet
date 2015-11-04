@@ -88,7 +88,11 @@
 			">3 char TLD": "email@domain.name",
 			"2 char TLD": "email@domain.co.jp",
 			"Dash in address": "firstname-lastname@domain.com",
-			"Intranet": "name@localhost"
+			"Intranet": "name@localhost",
+			"Max Characters - Local - 64@189" : "abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmn@abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghij.com",
+			"Max Characters - Domain - 1@252" : "a@abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwx.com",
+			"Special Characters - Local" : "!#$%&'*+-/=?^_`{|}~@domain.com",
+			"Top Level Domain" : " localpart@com"
 		},
 		"Invalid": {
 			"No @ or domain": "plainaddress",
@@ -105,7 +109,12 @@
 			"Leading dash in domain": "email@-domain.com",
 			"Leading dot in domain": "email@.domain.com",
 			"Invalid IP format": "email@111.222.333.44444",
-			"Multiple dots in the domain": "email@domain..com"
+			"Multiple dots in the domain": "email@domain..com",
+			"Exceeding Max Characters - Local 65@188" : "abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmno@abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghi.com",
+			"Address without TLD" : "localpart@domain",
+			"Special Characters - Domain" : "localpart@!#$%&'*+-/=?^_`{|} ~.com",
+			"Special Characters (Non Ascii) - Local" : "λτεστ@domain.com",
+			"Special Characters (Non Ascii) - Domain" : "localpart@λτεστ.com"
 		}
 	},
 	"URLs": {
