@@ -92,7 +92,8 @@
 			"Max Characters - Local - 64@189" : "abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmn@abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghij.com",
 			"Max Characters - Domain - 1@252" : "a@abcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwxyzabcdefghijklmnopqrstuwx.com",
 			"Special Characters - Local" : "!#$%&'*+-/=?^_`{|}~@domain.com",
-			"Top Level Domain" : " localpart@com"
+			"Top Level Domain" : " localpart@com",
+			"Non-ascii Email" : "nathan@学生优惠.com"
 		},
 		"Invalid": {
 			"No @ or domain": "plainaddress",
